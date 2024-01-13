@@ -1,0 +1,6 @@
+fastapi[testclient]
+httpx
+joblib
+pytest
+spacy
+uvicorn
