@@ -18,3 +18,4 @@ tensorflow_addons
 transformers
 nltk
 gensim
+openai
