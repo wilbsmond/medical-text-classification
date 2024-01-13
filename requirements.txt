@@ -4,3 +4,17 @@ joblib
 pytest
 spacy
 uvicorn
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+scikit-multilearn
+scipy
+keras
+tensorflow
+tensorflow_addons
+transformers
+nltk
+gensim
