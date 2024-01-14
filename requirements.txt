@@ -16,7 +16,10 @@ keras
 tensorflow
 tensorflow_addons
 transformers
+transformers[torch]
+accelerate
 nltk
 gensim
 openai
 python-dotenv
+evaluate

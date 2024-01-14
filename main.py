@@ -14,7 +14,7 @@ class TextRequest(BaseModel):
     text: str
 
 # Load your trained spaCy model
-nlp = spacy.load("complaint_prediction_spacy")
+nlp = spacy.load("models/model_spacy")
 
 @app.post("/predict", summary="Predict Complaints")
 async def predict(request: TextRequest):
