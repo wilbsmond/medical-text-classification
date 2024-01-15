@@ -77,6 +77,9 @@ def split_train_test(df_user_inputs, df_labels):
 
     return train_texts, y_train, val_texts, y_val, test_texts, y_test
 
+def oversample_minority_classes(train_texts, y_train, threshold=30):
+    pass
+
 def save_to_csv(train_texts, y_train, val_texts, y_val, test_texts, y_test, df_labels):
     # Convert texts to DataFrame
     train_texts_df = pd.DataFrame(train_texts, columns=['text'])
